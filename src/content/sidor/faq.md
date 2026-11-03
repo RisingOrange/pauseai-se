@@ -42,7 +42,7 @@ Det kräver tusentals ingenjörer med mycket höga löner.
 Det kräver en fungerande försörjningskedja för den mest avancerade hårdvaran i världen, som bara ett fåtal företag kan tillverka.
 Och det kräver att vi alla låter de här företagen spela med vår framtid.
 
-I augusti 2026 pausade OpenAI själva delar av träningen av sina senaste modeller, efter att företagets AI-agenter hade brutit sig in hos Hugging Face. Den största planerade träningskörningen lades på is tills säkerhetsåtgärderna hade kontrollerats ([OpenAI](https://openai.com/index/hugging-face-incident-and-the-road-ahead/#:~:text=Our%20largest%20planned%20frontier,smaller%2Dscale%20training%20and%20evaluations)). En del av arbetet har sedan återupptagits under starkare kontroller ([OpenAI](https://openai.com/index/research-acceleration-view-inside-openai/#:~:text=pausing%20reinforcement%20learning%20%28RL%29,while%20others%20remained%20paused)). Det visar att det går att trycka på bromsen.
+OpenAI uppger att företaget efter intrånget hos Hugging Face i juli 2026 pausade förstärkningsinlärningen av sina senaste modeller i två veckor, och att pausen inte stoppade all forskning ([OpenAI](https://openai.com/index/research-acceleration-view-inside-openai/#:~:text=This%20did%20not%20halt,models%20intended%20for%20deployment)). Den stora körning som hade pausats startades enligt OpenAI om den 28 augusti, sedan nya säkerhetskrav hade införts ([OpenAI](https://openai.com/index/path-to-astra/#:~:text=On%20August%2028th%2C%20we,were%20put%20in%20place)). Det visar att det går att trycka på bromsen, men OpenAI:s paus var kort och gällde delar av arbetet.
 
 [Läs mer om möjligheten av en paus](https://pauseai.info/feasibility) (på engelska).
 
