@@ -15,7 +15,7 @@ Du når PauseAI Sverige på [sweden@pauseai.info](mailto:sweden@pauseai.info). D
 
 Du kanske blir förvånad över att de flesta i PauseAI betraktar sig själva som teknikoptimister.
 Många av dem arbetar med teknik, och många har varit entusiastiska över AI:s potential att hjälpa mänskligheten.
-Det är därför insikten att AI kan utgöra en existentiell risk har varit mycket [svår att ta in](https://pauseai.info/psychology-of-x-risk) för många av dem.
+Det är därför insikten att AI kan utgöra en existentiell risk har varit mycket [svår att ta in](/psykologin-bakom-existentiell-risk) för många av dem.
 
 ## Vill ni förbjuda all AI?
 
@@ -128,7 +128,7 @@ Våren 2023 förändrades det:
 
 Företagen har alltså reagerat på varningar från andra, inte drivit dem. Och affärsincitamenten pekar åt andra hållet: de flesta företag tonar ner riskerna med sina produkter för att locka kunder och investerare, eftersom varningar bjuder in till reglering.
 
-Det finns också en annan förklaring till att många inte vill tro att risken är verklig: att erkänna att _vi faktiskt är i fara_ är mycket skrämmande. [Läs mer om psykologin bakom existentiell risk](https://pauseai.info/psychology-of-x-risk) (på engelska).
+Det finns också en annan förklaring till att många inte vill tro att risken är verklig: att erkänna att _vi faktiskt är i fara_ är mycket skrämmande. [Läs mer om psykologin bakom existentiell risk](/psykologin-bakom-existentiell-risk).
 
 ## Okej, jag vill hjälpa till! Vad kan jag göra?
 
