@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content'
-import { formatDateTime, groupSeries, url } from '../lib'
+import { formatDateTime, groupSeries, isUpcoming, url } from '../lib'
 
 interface Props {
 	events: CollectionEntry<'evenemang'>[]
@@ -21,6 +21,13 @@ const rows = (series ? groupSeries(events) : events.map((event) => [event])).sli
 				<h3><a href={url(`/evenemang/${event.id}`)}>{event.data.title}</a></h3>
 				<p class="muted">{event.data.location}</p>
 				{event.data.description && <p>{event.data.description}</p>}
+				{event.data.link && isUpcoming(event.data.date) && (
+					<p>
+						<a class="button" href={event.data.link}>
+							Anmäl dig
+						</a>
+					</p>
+				)}
 				{more.length > 0 && (
 					<details>
 						<summary>{more.length === 1 ? 'Ett tillfälle till' : `${more.length} tillfällen till`}</summary>
@@ -67,6 +74,13 @@ const rows = (series ? groupSeries(events) : events.map((event) => [event])).sli
 	}
 	p {
 		margin: 0.2rem 0 0;
+	}
+	p:has(> .button) {
+		margin-top: 0.6rem;
+	}
+	.button {
+		padding: 0.4rem 0.9rem;
+		font-size: 1rem;
 	}
 	details {
 		margin-top: 0.5rem;
