@@ -6,6 +6,10 @@ import type { Loader } from 'astro/loaders'
 /** Kalenderflödet för kalendern "PauseAI Sweden" på Luma (https://luma.com/PauseAI-Sweden). */
 export const LUMA_ICS = 'https://api.lu.ma/ics/get?entity=calendar&id=cal-uTqRuOkL7KPhEu7'
 
+// Events added to the calendar from elsewhere (e.g. Meetup) only link to the calendar page in
+// their description; their own page is in LOCATION.
+const CALENDAR_PAGE = /^https:\/\/luma\.com\/PauseAI-Sweden$/i
+
 export interface LumaEvent {
 	uid: string
 	title: string
@@ -34,7 +38,9 @@ export function parseIcs(ics: string): LumaEvent[] {
 			const start = fields.DTSTART?.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/)
 			if (start && fields.SUMMARY && fields.STATUS !== 'CANCELLED') {
 				const [, y, mo, d, h, mi, s] = start.map(Number)
-				const links = [...description.matchAll(/https:\/\/luma\.com\/[\w/-]+/g)].map((m) => m[0])
+				const links = [...description.matchAll(/https:\/\/luma\.com\/[\w/-]+/g)]
+					.map((m) => m[0])
+					.filter((link) => !CALENDAR_PAGE.test(link))
 				if (location.startsWith('https://')) links.push(location)
 				events.push({
 					uid: fields.UID ?? '',
