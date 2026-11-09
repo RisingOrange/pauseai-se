@@ -168,7 +168,7 @@ Det är svårt att förutsäga hur lång tid det tar att bygga en superintellige
 
 ## Vi tar inte risken på tillräckligt stort allvar
 
-Våra hjärnor tenderar att reagera otillräckligt på risker vi inte ser, som utvecklas långsamt och är svåra att förstå. Vi tenderar också att underskatta exponentiell tillväxt och är benägna att förneka hot mot vår existens när vi ställs inför dem. Läs mer om [psykologin bakom existentiell risk](https://pauseai.info/psychology-of-x-risk).
+Våra hjärnor tenderar att reagera otillräckligt på risker vi inte ser, som utvecklas långsamt och är svåra att förstå. Vi tenderar också att underskatta exponentiell tillväxt och är benägna att förneka hot mot vår existens när vi ställs inför dem. Läs mer om [psykologin bakom existentiell risk](/psykologin-bakom-existentiell-risk).
 
 ## AI-företagen är låsta i en kapplöpning mot ett stup
 
